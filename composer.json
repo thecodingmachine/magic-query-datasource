@@ -1,0 +1,28 @@
+{
+    "name": "mouf/magic-query-datasource",
+    "description": "This package contains 2 utility class representing a row and a datasource, using magic query.",
+    "keywords": ["mouf", "magic-query", "datasource"],
+    "homepage": "https://github.com/thecodingmachine/magic-query-datasource",
+    "type": "mouf-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.4",
+        "mouf/database.datasource.datasource-interface": "~4.0",
+        "doctrine/dbal": "^2.0",
+        "mouf/magic-query": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mouf\\Database\\MagicQuery\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
